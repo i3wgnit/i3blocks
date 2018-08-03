@@ -46,6 +46,10 @@
 	_(color,                 8,    PROP_I3BAR | PROP_STRING) \
 	_(background,            8,    PROP_I3BAR | PROP_STRING) \
 	_(border,                8,    PROP_I3BAR | PROP_STRING) \
+    _(border_top,            8,    PROP_I3BAR | PROP_STRING)  \
+    _(border_bottom,         8,    PROP_I3BAR | PROP_STRING) \
+	_(border_left,           8,    PROP_I3BAR | PROP_STRING) \
+	_(border_right,          8,    PROP_I3BAR | PROP_STRING) \
 	_(min_width,             1024, PROP_I3BAR | PROP_STRING | PROP_NUMBER) \
 	_(align,                 8,    PROP_I3BAR | PROP_STRING) \
 	_(name,                  32,   PROP_I3BAR | PROP_STRING) \
